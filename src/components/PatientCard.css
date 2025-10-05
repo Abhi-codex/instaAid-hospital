@@ -1,0 +1,28 @@
+/* src/components/PatientCard.css */
+.patient-card { background: #ffffff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); display: flex; flex-direction: column; border-top: 4px solid #ccc; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.patient-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); }
+.priority-border-critical { border-top-color: #e53e3e; }
+.priority-border-high { border-top-color: #dd6b20; }
+.priority-border-medium { border-top-color: #d69e2e; }
+.priority-border-low { border-top-color: #38a169; }
+.priority-text-critical { color: #e53e3e; }
+.priority-text-high { color: #dd6b20; }
+.priority-text-medium { color: #d69e2e; }
+.priority-text-low { color: #38a169; }
+.card-main-info { display: flex; justify-content: space-between; align-items: flex-start; padding: 1rem 1.25rem; }
+.patient-details .name { font-size: 1.25rem; font-weight: 700; color: #2d3748; margin-bottom: 0.25rem; }
+.patient-details .status { font-size: 0.9rem; font-weight: 500; color: #718096; text-transform: capitalize; }
+.eta-details .value { font-size: 1.75rem; font-weight: 700; line-height: 1; }
+.eta-details .label { font-size: 0.8rem; color: #718096; }
+.card-grid-info, .expanded-details { padding: 1rem 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; border-top: 1px solid #edf2f7; }
+.info-block { display: flex; align-items: center; gap: 0.75rem; }
+.info-icon { font-size: 1.5rem; color: #4a5568; }
+.info-label { font-size: 0.8rem; color: #a0aec0; margin-bottom: 0.1rem; }
+.info-value { font-size: 0.9rem; font-weight: 600; color: #4a5568; }
+.info-value a { color: #3182ce; text-decoration: none; }
+.info-block.full-width { grid-column: 1 / -1; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1.25rem; background-color: #f7fafc; border-top: 1px solid #edf2f7; }
+.details-button { background: none; border: 1px solid #cbd5e0; color: #4a5568; font-weight: 600; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
+.location-links { display: flex; gap: 0.5rem; }
+.map-link-button { background-color: #3182ce; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.8rem; }
+.map-link-disabled { background-color: #e2e8f0; color: #a0aec0; padding: 6px 12px; border-radius: 6px; cursor: not-allowed; font-size: 0.8rem; }

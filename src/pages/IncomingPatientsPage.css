@@ -1,0 +1,54 @@
+/* src/pages/IncomingPatientsPage.css */
+.patients-container {
+  padding: 2rem;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.patients-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.back-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.controls-bar {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.controls-bar label {
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.controls-bar select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* This is the new part that creates the grid */
+.patients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.no-patients-message {
+    text-align: center;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #718096;
+    font-size: 1.2rem;
+}

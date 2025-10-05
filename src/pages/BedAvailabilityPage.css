@@ -1,0 +1,20 @@
+.bed-availability-container { padding: 2rem; background-color: #f4f7fa; min-height: 100vh; }
+.bed-availability-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+.bed-availability-header h1 { margin: 0; }
+.back-link { color: #007bff; text-decoration: none; font-weight: 600; }
+.bed-card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); padding: 2rem; max-width: 800px; margin: 0 auto; }
+.bed-card-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+.bed-card-header h2 { margin: 0; font-size: 1.5rem; }
+.edit-button, .save-button, .cancel-button { border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 1rem; }
+.edit-button { background-color: #3182ce; color: white; }
+.form-buttons { display: flex; gap: 1rem; }
+.save-button { background-color: #38a169; color: white; }
+.cancel-button { background-color: #718096; color: white; }
+.bed-type-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.bed-type { padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; }
+.bed-type h3 { margin-top: 0; text-transform: capitalize;}
+.bed-counts p { font-size: 1.2rem; margin: 0.5rem 0; }
+.bed-counts strong { font-size: 1.5rem; }
+.bed-inputs .form-group { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin-bottom: 1rem; }
+.bed-inputs .form-group label { font-weight: 600; font-size: 0.9rem; }
+.bed-inputs .form-group input { padding: 8px; border-radius: 4px; border: 1px solid #ccc; width: 100px; font-size: 1rem;}
